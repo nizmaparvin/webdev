@@ -1,0 +1,87 @@
+body{
+
+margin: 0;
+padding: 0;
+font-family: montserrat;
+background: url(b.jpg);
+background-size: cover;
+font-size: 20px;
+font-weight: 700;
+height: 100vh;
+}
+
+
+
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color:rgba(140, 51, 199, 0.616);
+border-radius: 10px;
+
+}
+.center h1{
+    text-align: center;
+    color: rgb(245, 125, 125);
+    padding: 0 0 20px 0;
+    border-bottom: 2px  solid silver;
+}
+.center form{
+    padding:0 2=40px;
+}
+
+.textfield{
+position: relative;
+margin: 30px 0;
+color: rgb(175, 78, 194);
+border: none;
+border-bottom: 2px solid rgb(126, 106, 199) ;
+}
+.textfield :hover{
+color: rgb(149, 35, 224);
+border-bottom: rgb(130, 73, 204);
+
+}
+.textfield input{
+
+    background: none;
+    border: none;
+    width: 100%;
+height: 40px;
+font-size: 20px;
+font-weight: 800;
+color: snow;
+
+
+}
+.forpass a{
+color: snow;
+text-decoration: none;
+cursor: pointer;
+}
+.forpass a :hover{
+text-decoration: underline;
+color: rgb(161, 40, 218);
+transition: 0.5s;
+
+}
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    margin: 15px 10px 15px 0;
+    background-color: rgb(121, 37, 216);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .input[type="submit"]:hover{
+    color: rgb(30, 106, 219);
+    background-color: rgb(69, 48, 185);
+ }
+ .newacc{
+    color: slateblue);
+    background-color:slateblue;
+
+ }
